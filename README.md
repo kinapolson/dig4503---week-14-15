@@ -1,16 +1,28 @@
-# React + Vite
+Project Name: Tip Calculator
+Netlify: https://tip-calc-appp.netlify.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description:
+This React web app is a clean and user-friendly tip calculator that helps users quickly calculate tip amounts, total bill cost, and how much each person should pay when splitting a bill. 
 
-Currently, two official plugins are available:
+Features:
+- Bill Amount Input: Users can enter a bill amount with proper currency formatting and validation.
+- Tip Selection: Choose from preset tip percentages or enter a custom tip.
+- Split Between People: Input the number of people to divide the total bill evenly.
+- Live Calculations: Displays total tip, total bill, and per-person cost.
+- Input Validation: Prevents negative values, invalid inputs, and incorrect formats with error messages.
+- Reset Functionality: Clears all inputs and resets the calculator.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Tech Stack:
+- React (Functional Components + Hooks)
+- HTML
+- CSS
+- JavaScript
+- Vite
+- GitHub
+- Netlify
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Update (4.29.2026):
+Added input validation for bill amount, tip percentage, and number of people
+Added user-friendly error messages
+Improved UI styling with better spacing, focus states, and visual feedback
+Added empty state for results display to improve clarity
